@@ -1,0 +1,29 @@
+{
+  "title": "Kostadin Keljtanoski: CV",
+  "name": "keljtanoski-cv-resume",
+  "version": "0.0.1",
+  "description": "My personal CV",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "cv",
+    "resume",
+    "bootstrap 4"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keljtanoski/keljtanoski.github.io.git"
+  },
+  "author": "Kostadin Keljtanoski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keljtanoski/keljtanoski.github.io/issues",
+    "email": "k3dkdev@gmail.com"
+  },
+  "homepage": "https://keljtanoski.github.io"
+}
