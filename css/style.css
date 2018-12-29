@@ -18,7 +18,7 @@ html, body {
       rgba(0, 0, 0, 0.45)
     ),
     /* bottom, image */
-    url(../images/background.jpg) no-repeat center center fixed; 
+    url(../images/bgalter.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
