@@ -674,24 +674,29 @@ section.red {
     padding-bottom: 30px;
     padding: 0px;
     width: 96%;
+    width: 100%;
+    margin: 0;
   }
   #timeline:before {
     left: 0;
+    display: none;
   }
   #timeline .timeline-item .timeline-content {
     width: 95%;
     float: right;
     text-align: left;
+    width: 100%;
   }
   #timeline .timeline-item .timeline-content:before,
 #timeline .timeline-item .timeline-content .right:before {
-    left: 10%;
     margin-left: -6px;
     border-left: 0;
     border-right: 7px solid #ee4d4d;
+    display: none;
   }
   #timeline .timeline-item .timeline-icon {
     left: 0;
+    display: none;
   }
 }
 .custom-card {
