@@ -66,4 +66,10 @@ $(document).ready(function () {
 
         scrollTo($.attr(this, "href"));
     });
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
 });
+
