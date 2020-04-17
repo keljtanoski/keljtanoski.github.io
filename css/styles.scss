@@ -13,11 +13,17 @@ html {
 
 body {
   font-size: 1.15rem;
+  font-family: 'Muli', sans-serif !important;
 }
 
 .main-wrapper {
   //background-color: #4299e1;
-  background-color: $primary_bg;
+  //background-color: $primary_bg;
+  background: #1e3c72; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2a5298, #1e3c72); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
   overflow-x: hidden;
   position: relative;
   width: 100%;
@@ -209,8 +215,14 @@ img.img-black-white {
     bottom: -50px;
     left: 0;
     right: 0;
-    transition: all 0.8s cubic-bezier(0.79, 0, 0.05, 0.83);;
-    background-color: $primary_bg;
+    transition: all 0.7s cubic-bezier(0.79, 0, 0.05, 0.83);
+    //opacity: 1;
+    //background-color: $primary_bg;
+    //background: ;
+    background: #1e3c72; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1e3c72, #2a5298); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1e3c72, #2a5298); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
 
   &.active {
@@ -257,23 +269,44 @@ article {
 .heading,
 h1, h2, h3, h4, h5, h6 {
 
-  font-family: 'jetbrains_monobold', sans-serif !important;
+  //font-family: 'jetbrains_monobold', sans-serif !important;
+  font-family: 'Muli', sans-serif !important;
   //font-family: 'Montserrat', sans-serif !important;
   //font-family: 'Source Code Pro', monospace;
-  //font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
 
 }
 
+h6.h5 {
+  font-weight: 800;
+}
+
 .heading {
-  font-size: 38px;
+  font-size: 2.5rem;
+  //font-size: 38px;
+}
+
+.sub-heading {
+  font-size: 1.6rem;
 }
 
 .highlight {
   background-color: #ededed;
-  padding: 4px 8px;
+  padding: 6px 8px;
   /*display: inline-block;*/
   color: #343a40;
+
+  a {
+    color: #343a40 !important;
+
+  }
+
+  &:hover {
+    padding: 2px 8px;
+    cursor: pointer;
+    background-color: #ffc107;
+  }
 }
 
 .form-control {
@@ -333,7 +366,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-dark-faded {
   font-weight: 300;
-  font-family: 'Montserrat', sans-serif !important;
+  //font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Muli', sans-serif !important;
   /*text-transform: uppercase;*/
   background-color: rgba(0, 0, 0, 0.07);
   color: black;
@@ -391,6 +425,16 @@ section {
       //box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
       box-shadow: 0 20px 5px -10px rgba(#000, 0.4);
       transform: translateY(5px);
+    }
+  }
+
+  .section-content {
+    font-size: 1.25rem;
+  }
+
+  .skill {
+    .h6 {
+      font-size: 1.25rem;
     }
   }
 
@@ -462,7 +506,8 @@ section {
       height: auto;
       //padding: 1.5% 2%;
       padding: 10px 20px;
-      box-shadow: 5px -4px 0px 0px #3c3b3b;
+      //box-shadow: 5px -4px 0px 0px #3c3b3b;
+      box-shadow: 5px -4px 0px 0px #8c8c8c;
       color: #fff;
       font-size: 2rem;
     }
