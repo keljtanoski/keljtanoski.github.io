@@ -308,7 +308,7 @@ h6.h5 {
 
 .highlight {
   background-color: #ededed;
-  padding: 6px 8px;
+  padding: 2px 8px;
   /*display: inline-block;*/
   color: #343a40;
 }
@@ -316,7 +316,7 @@ h6.h5 {
   color: #343a40 !important;
 }
 .highlight:hover {
-  padding: 2px 8px;
+  padding: 1px 8px;
   cursor: pointer;
   background-color: #ffc107;
 }
