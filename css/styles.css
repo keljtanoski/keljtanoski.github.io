@@ -73,6 +73,10 @@ body {
   position: relative;
   width: 100%;
 }
+.main-wrapper.not-found-page {
+  height: 100vh;
+  width: 100vw;
+}
 
 .text__blue {
   color: #328AF1;
@@ -442,6 +446,31 @@ section#experience .employee-tasks .resume-list li.item-title {
 }
 section#about {
   margin-top: 50px;
+}
+section#not_found_404 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+section#not_found_404 .not_found_content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+section#not_found_404 .not_found_content h1 {
+  color: white;
+  font-size: 10.5rem;
+}
+section#not_found_404 .not_found_content .social {
+  margin: 0;
+  padding: 0;
+}
+section#not_found_404 .not_found_content .social a {
+  font-size: 2.7rem;
 }
 section .heading {
   margin-bottom: 30px;
