@@ -413,6 +413,9 @@ section#about:hover, section#experience:hover, section#services:hover, section#s
   box-shadow: 0 20px 5px -10px rgba(0, 0, 0, 0.4);
   transform: translateY(5px);
 }
+section#skills {
+  padding: 5%;
+}
 section .section-content {
   font-size: 1.25rem;
 }

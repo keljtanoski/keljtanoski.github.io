@@ -433,6 +433,10 @@ section {
     }
   }
 
+  &#skills {
+    padding: 5%;
+  }
+
   .section-content {
     font-size: 1.25rem;
   }
@@ -509,6 +513,7 @@ section {
       justify-content: center;
       align-items: center;
       align-content: center;
+
       h1 {
         //display: flex;
         //display: -moz-flex;
@@ -521,9 +526,11 @@ section {
         color: white;
         font-size: 10.5rem;
       }
+
       .social {
         margin: 0;
         padding: 0;
+
         a {
           font-size: 2.7rem;
         }
@@ -873,7 +880,7 @@ section {
     }
 
     &#skills {
-      //padding: 6%;
+      //padding: 5% 6% !important;
     }
 
     &#services {
