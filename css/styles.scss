@@ -1,6 +1,7 @@
 @import "fonts";
 @import "colors";
 @import "content";
+@import "linear-icons";
 
 * {
   // outline: 1px solid red;
@@ -412,6 +413,7 @@ section {
   &#services,
   &#skills,
   &#contact,
+  &#certification,
   &#personal-skills {
     transition: all .5s ease;
     position: relative;
@@ -465,7 +467,7 @@ section {
 
   &#experience {
     .company-info {
-      background-color: #e5e5e5;
+      background-color: #ededed;
       padding: 3%;
       border-bottom: unset;
       margin-top: 0px;
@@ -492,8 +494,38 @@ section {
     //padding: 6%;
   }
 
+  &#certification {
+    .certificate-wrapper {
+      text-align: center;
+    }
+  }
+
   &#services {
     //padding-bottom: 3%;
+    .card-wrapper {
+      display: flex;
+      display: -webkit-flex;
+      display: -o-flex;
+      display: -ms-flex;
+      display: -moz-flex;
+      padding: 0.5em;
+
+      .card {
+        background: #ededed;
+        > i {
+          color: #ffc107;
+          background-color: #081a35;
+          width: 90px;
+          height: 90px;
+          margin: 0 auto;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 1%;
+        }
+      }
+    }
   }
 
   &#about {
@@ -857,6 +889,7 @@ section {
     &#experience,
     &#services,
     &#skills,
+    &#certification,
     &#contact {
       background-color: #fff !important;
       margin-left: 15px;
