@@ -488,6 +488,168 @@ section {
         }
       }
     }
+
+    //ZeroPlex collapse
+    #zpModule {
+      line-height: 1.5;
+    }
+
+    #zpModule #zpCollapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #zpModule #zpCollapse.collapsing {
+      height: 1rem;
+    }
+
+    #zpModule a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #zpModule a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
+    //Xessable Collapse
+    #xsModule {
+      line-height: 1.5;
+    }
+
+    #xsModule #xsCollapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #xsModule #xsCollapse.collapsing {
+      height: 1rem;
+    }
+
+    #xsModule a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #xsModule a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
+    //Smith Collapse
+    #smModule {
+      line-height: 1.5;
+    }
+
+    #smModule #smCollapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #smModule #smCollapse.collapsing {
+      height: 1rem;
+    }
+
+    #smModule a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #smModule a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
+    //InterWorks Collapse
+    #iwModule {
+      line-height: 1.5;
+    }
+
+    #iwModule #iwCollapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #iwModule #iwCollapse.collapsing {
+      height: 1rem;
+    }
+
+    #iwModule a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #iwModule a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
+    //VoxTeneo Collapse
+    #vtModule {
+      line-height: 1.5;
+    }
+
+    #vtModule #vtCollapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #vtModule #vtCollapse.collapsing {
+      height: 1rem;
+    }
+
+    #vtModule a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #vtModule a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
+    //Asidus 2 Collapse
+    #as2Module {
+      line-height: 1.5;
+    }
+
+    #as2Module #as2Collapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #as2Module #as2Collapse.collapsing {
+      height: 1rem;
+    }
+
+    #as2Module a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #as2Module a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
+    //Asidus 1 Collapse
+    #asModule {
+      line-height: 1.5;
+    }
+
+    #asModule #asCollapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #asModule #asCollapse.collapsing {
+      height: 1rem;
+    }
+
+    #asModule a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #asModule a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
   }
 
   &#skills {
@@ -512,6 +674,7 @@ section {
 
       .card {
         background: #ededed;
+
         > i {
           color: #ffc107;
           background-color: #081a35;

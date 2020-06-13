@@ -1149,6 +1149,125 @@ section#experience .employee-tasks .resume-list li.item-title {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+section#experience #zpModule {
+  line-height: 1.5;
+}
+section#experience #zpModule #zpCollapse.collapse:not(.show) {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+section#experience #zpModule #zpCollapse.collapsing {
+  height: 1rem;
+}
+section#experience #zpModule a.collapsed::after {
+  content: "+ Show More";
+}
+section#experience #zpModule a:not(.collapsed)::after {
+  content: "- Show Less";
+}
+section#experience #xsModule {
+  line-height: 1.5;
+}
+section#experience #xsModule #xsCollapse.collapse:not(.show) {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+section#experience #xsModule #xsCollapse.collapsing {
+  height: 1rem;
+}
+section#experience #xsModule a.collapsed::after {
+  content: "+ Show More";
+}
+section#experience #xsModule a:not(.collapsed)::after {
+  content: "- Show Less";
+}
+section#experience #smModule {
+  line-height: 1.5;
+}
+section#experience #smModule #smCollapse.collapse:not(.show) {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+section#experience #smModule #smCollapse.collapsing {
+  height: 1rem;
+}
+section#experience #smModule a.collapsed::after {
+  content: "+ Show More";
+}
+section#experience #smModule a:not(.collapsed)::after {
+  content: "- Show Less";
+}
+section#experience #iwModule {
+  line-height: 1.5;
+}
+section#experience #iwModule #iwCollapse.collapse:not(.show) {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+section#experience #iwModule #iwCollapse.collapsing {
+  height: 1rem;
+}
+section#experience #iwModule a.collapsed::after {
+  content: "+ Show More";
+}
+section#experience #iwModule a:not(.collapsed)::after {
+  content: "- Show Less";
+}
+section#experience #vtModule {
+  line-height: 1.5;
+}
+section#experience #vtModule #vtCollapse.collapse:not(.show) {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+section#experience #vtModule #vtCollapse.collapsing {
+  height: 1rem;
+}
+section#experience #vtModule a.collapsed::after {
+  content: "+ Show More";
+}
+section#experience #vtModule a:not(.collapsed)::after {
+  content: "- Show Less";
+}
+section#experience #as2Module {
+  line-height: 1.5;
+}
+section#experience #as2Module #as2Collapse.collapse:not(.show) {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+section#experience #as2Module #as2Collapse.collapsing {
+  height: 1rem;
+}
+section#experience #as2Module a.collapsed::after {
+  content: "+ Show More";
+}
+section#experience #as2Module a:not(.collapsed)::after {
+  content: "- Show Less";
+}
+section#experience #asModule {
+  line-height: 1.5;
+}
+section#experience #asModule #asCollapse.collapse:not(.show) {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+section#experience #asModule #asCollapse.collapsing {
+  height: 1rem;
+}
+section#experience #asModule a.collapsed::after {
+  content: "+ Show More";
+}
+section#experience #asModule a:not(.collapsed)::after {
+  content: "- Show Less";
+}
 section#certification .certificate-wrapper {
   text-align: center;
 }
