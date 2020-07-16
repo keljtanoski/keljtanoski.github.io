@@ -1138,6 +1138,14 @@ section {
   }
 }
 
+@media (max-height: 480px) {
+  section {
+    &#contact {
+      height: 100%;
+    }
+  }
+}
+
 .custom-card {
   background-color: rgba(0, 0, 0, 0.1);
 }
