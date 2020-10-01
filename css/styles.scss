@@ -489,6 +489,29 @@ section {
       }
     }
 
+    //Quantox Technology collapse
+    #qxModule {
+      line-height: 1.5;
+    }
+    
+    #qxModule #qxCollapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #qxModule #qxCollapse.collapsing {
+      height: 1rem;
+    }
+
+    #qxModule a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #qxModule a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
     //ZeroPlex collapse
     #zpModule {
       line-height: 1.5;
