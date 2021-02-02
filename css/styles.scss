@@ -488,11 +488,34 @@ section {
       }
     }
 
+    //Fueloyal collapse
+    #fuModule {
+      line-height: 1.5;
+    }
+
+    #fuModule #fuCollapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #fuModule #fuCollapse.collapsing {
+      height: 1rem;
+    }
+
+    #fuModule a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #fuModule a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
     //Quantox Technology collapse
     #qxModule {
       line-height: 1.5;
     }
-    
+
     #qxModule #qxCollapse.collapse:not(.show) {
       display: block;
       height: 0;
