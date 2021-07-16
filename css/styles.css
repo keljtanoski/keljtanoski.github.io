@@ -1149,6 +1149,23 @@ section#experience .employee-tasks .resume-list li.item-title {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+section#experience #axModule {
+  line-height: 1.5;
+}
+section#experience #axModule #axCollapse.collapse:not(.show) {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+section#experience #axModule a.collapsed::after {
+  content: "+ Show More";
+}
+section#experience #axModule #axCollapse.collapsing {
+  height: 1rem;
+}
+section#experience #axModule a:not(.collapsed)::after {
+  content: "- Show Less";
+}
 section#experience #fuModule {
   line-height: 1.5;
 }

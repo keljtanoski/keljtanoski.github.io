@@ -488,6 +488,29 @@ section {
       }
     }
 
+    //Axellero collapse
+    #axModule {
+      line-height: 1.5;
+    }
+
+    #axModule #axCollapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #axModule a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #axModule #axCollapse.collapsing {
+      height: 1rem;
+    }
+
+    #axModule a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
     //Fueloyal collapse
     #fuModule {
       line-height: 1.5;
