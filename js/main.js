@@ -14,28 +14,28 @@
 */
 
 
-let menuBtn = $("#menuBar");
-
-menuBtn.click(function () {
-
-    $('.hamburger-menu').toggleClass('animate');
-
-    if ($(".secondaryMenu").hasClass("active")) {
-
-        $(".secondaryMenu").removeClass("active");
-        setTimeout(function () {
-            $(".primaryMenu").addClass("active");
-        }, 400);
-
-
-    } else {
-        $(".primaryMenu").removeClass("active");
-
-        setTimeout(function () {
-            $(".secondaryMenu").addClass("active");
-        }, 350);
-    }
-});
+// let menuBtn = $("#menuBar");
+//
+// menuBtn.click(function () {
+//
+//     $('.hamburger-menu').toggleClass('animate');
+//
+//     if ($(".secondaryMenu").hasClass("active")) {
+//
+//         $(".secondaryMenu").removeClass("active");
+//         setTimeout(function () {
+//             $(".primaryMenu").addClass("active");
+//         }, 400);
+//
+//
+//     } else {
+//         $(".primaryMenu").removeClass("active");
+//
+//         setTimeout(function () {
+//             $(".secondaryMenu").addClass("active");
+//         }, 350);
+//     }
+// });
 
 function scrollTo(target) {
     const top = $(target).offset().top;
@@ -48,9 +48,9 @@ function scrollTo(target) {
 
 $(document).ready(function () {
     var elements = $(".sidebar > .main-info *");
-
-    // console.log(elements);
-
+//
+//     // console.log(elements);
+//
     for (let i = 0; i < elements.length; i++) {
         setTimeout(function () {
             $(elements[i].tagName).addClass("bs");
