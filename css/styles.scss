@@ -718,6 +718,29 @@ section {
       content: '- Show Less';
     }
 
+    //Upwork  Collapse
+    #upModule {
+      line-height: 1.5;
+    }
+
+    #upModule #upCollapse.collapse:not(.show) {
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #upModule #upCollapse.collapsing {
+      height: 1rem;
+    }
+
+    #upModule a.collapsed::after {
+      content: '+ Show More';
+    }
+
+    #upModule a:not(.collapsed)::after {
+      content: '- Show Less';
+    }
+
   }
 
   &#skills {

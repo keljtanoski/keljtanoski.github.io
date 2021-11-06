@@ -1319,6 +1319,23 @@ section#experience #asModule a.collapsed::after {
 section#experience #asModule a:not(.collapsed)::after {
   content: "- Show Less";
 }
+section#experience #upModule {
+  line-height: 1.5;
+}
+section#experience #upModule #upCollapse.collapse:not(.show) {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+section#experience #upModule #upCollapse.collapsing {
+  height: 1rem;
+}
+section#experience #upModule a.collapsed::after {
+  content: "+ Show More";
+}
+section#experience #upModule a:not(.collapsed)::after {
+  content: "- Show Less";
+}
 section#certification .certificate-wrapper {
   text-align: center;
 }
