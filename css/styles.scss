@@ -310,7 +310,7 @@ h6.h5 {
   &:hover {
     padding: 1px 8px;
     cursor: pointer;
-    background-color: #ffc107;
+    background-color: $primary_actions;
   }
 }
 
@@ -404,6 +404,11 @@ h6.h5 {
   }
 }
 
+//Badge custom style
+.badge-custom {
+  background: $primary_actions;
+}
+
 section {
   padding: 6%;
 
@@ -478,6 +483,7 @@ section {
       padding: 3%;
 
       .resume-list {
+        border-bottom: 1px solid lightgray;
         li.item-title {
           list-style: none;
           position: relative;
@@ -767,7 +773,7 @@ section {
         background: #ededed;
 
         > i {
-          color: #ffc107;
+          color: $primary_actions;
           background-color: #081a35;
           width: 90px;
           height: 90px;
@@ -835,7 +841,7 @@ section {
       position: absolute;
       right: -7px;
       top: -7px;
-      background: #ffc107;
+      background: $primary_actions;
       width: auto;
       height: auto;
       //padding: 1.5% 2%;
@@ -976,7 +982,7 @@ section {
 .progress {
   height: 0.6rem;
   //background-color: #fff;
-  background-color: #ffc107;
+  background-color: $primary_actions;
 
   .bg-blue {
     //background-color: #2e96a5;
@@ -1006,7 +1012,7 @@ section {
     width: 3px;
     height: 100%;
     //background: #000;
-    background: #ffc107;
+    background: $primary_actions;
     left: 1%;
     transform: translate(-50%);
     top: 0;
@@ -1039,7 +1045,7 @@ section {
 
     .timeline-icon {
       //background: #000;
-      background: #ffc107;
+      background: $primary_actions;
       width: 20px;
       height: 20px;
       position: absolute;

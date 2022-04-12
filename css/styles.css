@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import "font-awesome.css";
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
 @font-face {
@@ -80,683 +79,683 @@ body {
 }
 
 .lnr-home:before {
-  content: "";
+  content: "\e800";
 }
 
 .lnr-apartment:before {
-  content: "";
+  content: "\e801";
 }
 
 .lnr-pencil:before {
-  content: "";
+  content: "\e802";
 }
 
 .lnr-magic-wand:before {
-  content: "";
+  content: "\e803";
 }
 
 .lnr-drop:before {
-  content: "";
+  content: "\e804";
 }
 
 .lnr-lighter:before {
-  content: "";
+  content: "\e805";
 }
 
 .lnr-poop:before {
-  content: "";
+  content: "\e806";
 }
 
 .lnr-sun:before {
-  content: "";
+  content: "\e807";
 }
 
 .lnr-moon:before {
-  content: "";
+  content: "\e808";
 }
 
 .lnr-cloud:before {
-  content: "";
+  content: "\e809";
 }
 
 .lnr-cloud-upload:before {
-  content: "";
+  content: "\e80a";
 }
 
 .lnr-cloud-download:before {
-  content: "";
+  content: "\e80b";
 }
 
 .lnr-cloud-sync:before {
-  content: "";
+  content: "\e80c";
 }
 
 .lnr-cloud-check:before {
-  content: "";
+  content: "\e80d";
 }
 
 .lnr-database:before {
-  content: "";
+  content: "\e80e";
 }
 
 .lnr-lock:before {
-  content: "";
+  content: "\e80f";
 }
 
 .lnr-cog:before {
-  content: "";
+  content: "\e810";
 }
 
 .lnr-trash:before {
-  content: "";
+  content: "\e811";
 }
 
 .lnr-dice:before {
-  content: "";
+  content: "\e812";
 }
 
 .lnr-heart:before {
-  content: "";
+  content: "\e813";
 }
 
 .lnr-star:before {
-  content: "";
+  content: "\e814";
 }
 
 .lnr-star-half:before {
-  content: "";
+  content: "\e815";
 }
 
 .lnr-star-empty:before {
-  content: "";
+  content: "\e816";
 }
 
 .lnr-flag:before {
-  content: "";
+  content: "\e817";
 }
 
 .lnr-envelope:before {
-  content: "";
+  content: "\e818";
 }
 
 .lnr-paperclip:before {
-  content: "";
+  content: "\e819";
 }
 
 .lnr-inbox:before {
-  content: "";
+  content: "\e81a";
 }
 
 .lnr-eye:before {
-  content: "";
+  content: "\e81b";
 }
 
 .lnr-printer:before {
-  content: "";
+  content: "\e81c";
 }
 
 .lnr-file-empty:before {
-  content: "";
+  content: "\e81d";
 }
 
 .lnr-file-add:before {
-  content: "";
+  content: "\e81e";
 }
 
 .lnr-enter:before {
-  content: "";
+  content: "\e81f";
 }
 
 .lnr-exit:before {
-  content: "";
+  content: "\e820";
 }
 
 .lnr-graduation-hat:before {
-  content: "";
+  content: "\e821";
 }
 
 .lnr-license:before {
-  content: "";
+  content: "\e822";
 }
 
 .lnr-music-note:before {
-  content: "";
+  content: "\e823";
 }
 
 .lnr-film-play:before {
-  content: "";
+  content: "\e824";
 }
 
 .lnr-camera-video:before {
-  content: "";
+  content: "\e825";
 }
 
 .lnr-camera:before {
-  content: "";
+  content: "\e826";
 }
 
 .lnr-picture:before {
-  content: "";
+  content: "\e827";
 }
 
 .lnr-book:before {
-  content: "";
+  content: "\e828";
 }
 
 .lnr-bookmark:before {
-  content: "";
+  content: "\e829";
 }
 
 .lnr-user:before {
-  content: "";
+  content: "\e82a";
 }
 
 .lnr-users:before {
-  content: "";
+  content: "\e82b";
 }
 
 .lnr-shirt:before {
-  content: "";
+  content: "\e82c";
 }
 
 .lnr-store:before {
-  content: "";
+  content: "\e82d";
 }
 
 .lnr-cart:before {
-  content: "";
+  content: "\e82e";
 }
 
 .lnr-tag:before {
-  content: "";
+  content: "\e82f";
 }
 
 .lnr-phone-handset:before {
-  content: "";
+  content: "\e830";
 }
 
 .lnr-phone:before {
-  content: "";
+  content: "\e831";
 }
 
 .lnr-pushpin:before {
-  content: "";
+  content: "\e832";
 }
 
 .lnr-map-marker:before {
-  content: "";
+  content: "\e833";
 }
 
 .lnr-map:before {
-  content: "";
+  content: "\e834";
 }
 
 .lnr-location:before {
-  content: "";
+  content: "\e835";
 }
 
 .lnr-calendar-full:before {
-  content: "";
+  content: "\e836";
 }
 
 .lnr-keyboard:before {
-  content: "";
+  content: "\e837";
 }
 
 .lnr-spell-check:before {
-  content: "";
+  content: "\e838";
 }
 
 .lnr-screen:before {
-  content: "";
+  content: "\e839";
 }
 
 .lnr-smartphone:before {
-  content: "";
+  content: "\e83a";
 }
 
 .lnr-tablet:before {
-  content: "";
+  content: "\e83b";
 }
 
 .lnr-laptop:before {
-  content: "";
+  content: "\e83c";
 }
 
 .lnr-laptop-phone:before {
-  content: "";
+  content: "\e83d";
 }
 
 .lnr-power-switch:before {
-  content: "";
+  content: "\e83e";
 }
 
 .lnr-bubble:before {
-  content: "";
+  content: "\e83f";
 }
 
 .lnr-heart-pulse:before {
-  content: "";
+  content: "\e840";
 }
 
 .lnr-construction:before {
-  content: "";
+  content: "\e841";
 }
 
 .lnr-pie-chart:before {
-  content: "";
+  content: "\e842";
 }
 
 .lnr-chart-bars:before {
-  content: "";
+  content: "\e843";
 }
 
 .lnr-gift:before {
-  content: "";
+  content: "\e844";
 }
 
 .lnr-diamond:before {
-  content: "";
+  content: "\e845";
 }
 
 .lnr-linearicons:before {
-  content: "";
+  content: "\e846";
 }
 
 .lnr-dinner:before {
-  content: "";
+  content: "\e847";
 }
 
 .lnr-coffee-cup:before {
-  content: "";
+  content: "\e848";
 }
 
 .lnr-leaf:before {
-  content: "";
+  content: "\e849";
 }
 
 .lnr-paw:before {
-  content: "";
+  content: "\e84a";
 }
 
 .lnr-rocket:before {
-  content: "";
+  content: "\e84b";
 }
 
 .lnr-briefcase:before {
-  content: "";
+  content: "\e84c";
 }
 
 .lnr-bus:before {
-  content: "";
+  content: "\e84d";
 }
 
 .lnr-car:before {
-  content: "";
+  content: "\e84e";
 }
 
 .lnr-train:before {
-  content: "";
+  content: "\e84f";
 }
 
 .lnr-bicycle:before {
-  content: "";
+  content: "\e850";
 }
 
 .lnr-wheelchair:before {
-  content: "";
+  content: "\e851";
 }
 
 .lnr-select:before {
-  content: "";
+  content: "\e852";
 }
 
 .lnr-earth:before {
-  content: "";
+  content: "\e853";
 }
 
 .lnr-smile:before {
-  content: "";
+  content: "\e854";
 }
 
 .lnr-sad:before {
-  content: "";
+  content: "\e855";
 }
 
 .lnr-neutral:before {
-  content: "";
+  content: "\e856";
 }
 
 .lnr-mustache:before {
-  content: "";
+  content: "\e857";
 }
 
 .lnr-alarm:before {
-  content: "";
+  content: "\e858";
 }
 
 .lnr-bullhorn:before {
-  content: "";
+  content: "\e859";
 }
 
 .lnr-volume-high:before {
-  content: "";
+  content: "\e85a";
 }
 
 .lnr-volume-medium:before {
-  content: "";
+  content: "\e85b";
 }
 
 .lnr-volume-low:before {
-  content: "";
+  content: "\e85c";
 }
 
 .lnr-volume:before {
-  content: "";
+  content: "\e85d";
 }
 
 .lnr-mic:before {
-  content: "";
+  content: "\e85e";
 }
 
 .lnr-hourglass:before {
-  content: "";
+  content: "\e85f";
 }
 
 .lnr-undo:before {
-  content: "";
+  content: "\e860";
 }
 
 .lnr-redo:before {
-  content: "";
+  content: "\e861";
 }
 
 .lnr-sync:before {
-  content: "";
+  content: "\e862";
 }
 
 .lnr-history:before {
-  content: "";
+  content: "\e863";
 }
 
 .lnr-clock:before {
-  content: "";
+  content: "\e864";
 }
 
 .lnr-download:before {
-  content: "";
+  content: "\e865";
 }
 
 .lnr-upload:before {
-  content: "";
+  content: "\e866";
 }
 
 .lnr-enter-down:before {
-  content: "";
+  content: "\e867";
 }
 
 .lnr-exit-up:before {
-  content: "";
+  content: "\e868";
 }
 
 .lnr-bug:before {
-  content: "";
+  content: "\e869";
 }
 
 .lnr-code:before {
-  content: "";
+  content: "\e86a";
 }
 
 .lnr-link:before {
-  content: "";
+  content: "\e86b";
 }
 
 .lnr-unlink:before {
-  content: "";
+  content: "\e86c";
 }
 
 .lnr-thumbs-up:before {
-  content: "";
+  content: "\e86d";
 }
 
 .lnr-thumbs-down:before {
-  content: "";
+  content: "\e86e";
 }
 
 .lnr-magnifier:before {
-  content: "";
+  content: "\e86f";
 }
 
 .lnr-cross:before {
-  content: "";
+  content: "\e870";
 }
 
 .lnr-menu:before {
-  content: "";
+  content: "\e871";
 }
 
 .lnr-list:before {
-  content: "";
+  content: "\e872";
 }
 
 .lnr-chevron-up:before {
-  content: "";
+  content: "\e873";
 }
 
 .lnr-chevron-down:before {
-  content: "";
+  content: "\e874";
 }
 
 .lnr-chevron-left:before {
-  content: "";
+  content: "\e875";
 }
 
 .lnr-chevron-right:before {
-  content: "";
+  content: "\e876";
 }
 
 .lnr-arrow-up:before {
-  content: "";
+  content: "\e877";
 }
 
 .lnr-arrow-down:before {
-  content: "";
+  content: "\e878";
 }
 
 .lnr-arrow-left:before {
-  content: "";
+  content: "\e879";
 }
 
 .lnr-arrow-right:before {
-  content: "";
+  content: "\e87a";
 }
 
 .lnr-move:before {
-  content: "";
+  content: "\e87b";
 }
 
 .lnr-warning:before {
-  content: "";
+  content: "\e87c";
 }
 
 .lnr-question-circle:before {
-  content: "";
+  content: "\e87d";
 }
 
 .lnr-menu-circle:before {
-  content: "";
+  content: "\e87e";
 }
 
 .lnr-checkmark-circle:before {
-  content: "";
+  content: "\e87f";
 }
 
 .lnr-cross-circle:before {
-  content: "";
+  content: "\e880";
 }
 
 .lnr-plus-circle:before {
-  content: "";
+  content: "\e881";
 }
 
 .lnr-circle-minus:before {
-  content: "";
+  content: "\e882";
 }
 
 .lnr-arrow-up-circle:before {
-  content: "";
+  content: "\e883";
 }
 
 .lnr-arrow-down-circle:before {
-  content: "";
+  content: "\e884";
 }
 
 .lnr-arrow-left-circle:before {
-  content: "";
+  content: "\e885";
 }
 
 .lnr-arrow-right-circle:before {
-  content: "";
+  content: "\e886";
 }
 
 .lnr-chevron-up-circle:before {
-  content: "";
+  content: "\e887";
 }
 
 .lnr-chevron-down-circle:before {
-  content: "";
+  content: "\e888";
 }
 
 .lnr-chevron-left-circle:before {
-  content: "";
+  content: "\e889";
 }
 
 .lnr-chevron-right-circle:before {
-  content: "";
+  content: "\e88a";
 }
 
 .lnr-crop:before {
-  content: "";
+  content: "\e88b";
 }
 
 .lnr-frame-expand:before {
-  content: "";
+  content: "\e88c";
 }
 
 .lnr-frame-contract:before {
-  content: "";
+  content: "\e88d";
 }
 
 .lnr-layers:before {
-  content: "";
+  content: "\e88e";
 }
 
 .lnr-funnel:before {
-  content: "";
+  content: "\e88f";
 }
 
 .lnr-text-format:before {
-  content: "";
+  content: "\e890";
 }
 
 .lnr-text-format-remove:before {
-  content: "";
+  content: "\e891";
 }
 
 .lnr-text-size:before {
-  content: "";
+  content: "\e892";
 }
 
 .lnr-bold:before {
-  content: "";
+  content: "\e893";
 }
 
 .lnr-italic:before {
-  content: "";
+  content: "\e894";
 }
 
 .lnr-underline:before {
-  content: "";
+  content: "\e895";
 }
 
 .lnr-strikethrough:before {
-  content: "";
+  content: "\e896";
 }
 
 .lnr-highlight:before {
-  content: "";
+  content: "\e897";
 }
 
 .lnr-text-align-left:before {
-  content: "";
+  content: "\e898";
 }
 
 .lnr-text-align-center:before {
-  content: "";
+  content: "\e899";
 }
 
 .lnr-text-align-right:before {
-  content: "";
+  content: "\e89a";
 }
 
 .lnr-text-align-justify:before {
-  content: "";
+  content: "\e89b";
 }
 
 .lnr-line-spacing:before {
-  content: "";
+  content: "\e89c";
 }
 
 .lnr-indent-increase:before {
-  content: "";
+  content: "\e89d";
 }
 
 .lnr-indent-decrease:before {
-  content: "";
+  content: "\e89e";
 }
 
 .lnr-pilcrow:before {
-  content: "";
+  content: "\e89f";
 }
 
 .lnr-direction-ltr:before {
-  content: "";
+  content: "\e8a0";
 }
 
 .lnr-direction-rtl:before {
-  content: "";
+  content: "\e8a1";
 }
 
 .lnr-page-break:before {
-  content: "";
+  content: "\e8a2";
 }
 
 .lnr-sort-alpha-asc:before {
-  content: "";
+  content: "\e8a3";
 }
 
 .lnr-sort-amount-asc:before {
-  content: "";
+  content: "\e8a4";
 }
 
 .lnr-hand:before {
-  content: "";
+  content: "\e8a5";
 }
 
 .lnr-pointer-up:before {
-  content: "";
+  content: "\e8a6";
 }
 
 .lnr-pointer-right:before {
-  content: "";
+  content: "\e8a7";
 }
 
 .lnr-pointer-down:before {
-  content: "";
+  content: "\e8a8";
 }
 
 .lnr-pointer-left:before {
-  content: "";
+  content: "\e8a9";
 }
 
 html {
@@ -885,23 +884,23 @@ body {
 }
 
 .bg__laravel_gradient {
-  background-image: linear-gradient(to left, #f44881, #ec454f);
+  background-image: linear-gradient(to left, rgb(244, 72, 129), rgb(236, 69, 79));
 }
 
 .bg__php_gradient {
-  background-image: linear-gradient(to left, #21c8f6, #637bff);
+  background-image: linear-gradient(to left, rgb(33, 200, 246), rgb(99, 123, 255));
 }
 
 .bg__testing_gradient {
-  background-image: linear-gradient(to left, #6edcc4, #1aab8b);
+  background-image: linear-gradient(to left, rgb(110, 220, 196), rgb(26, 171, 139));
 }
 
 .bg__javascript_gradient {
-  background-image: linear-gradient(to left, #ffc73c, #f19a1a);
+  background-image: linear-gradient(to left, rgb(255, 199, 60), rgb(241, 154, 26));
 }
 
 .bg__tooling_gradient {
-  background-image: linear-gradient(to left, #b372bd, #8b60ed);
+  background-image: linear-gradient(to left, rgb(179, 114, 189), rgb(139, 96, 237));
 }
 
 .custom__shadow {
@@ -990,7 +989,7 @@ article code {
 }
 article mark {
   background-color: white;
-  color: #c80000;
+  color: rgb(200, 0, 0);
 }
 
 .heading,
@@ -1097,6 +1096,10 @@ h6.h5 {
   transform: scale(1.3);
 }
 
+.badge-custom {
+  background: #ffc107;
+}
+
 section {
   padding: 6%;
 }
@@ -1141,6 +1144,9 @@ section#experience .employee-tasks {
   border: 1px solid #eee;
   border-top: unset;
   padding: 3%;
+}
+section#experience .employee-tasks .resume-list {
+  border-bottom: 1px solid lightgray;
 }
 section#experience .employee-tasks .resume-list li.item-title {
   list-style: none;
@@ -1570,7 +1576,7 @@ section.red {
   padding: 10px;
   border-radius: 3px;
   display: inline-block;
-  background-color: #ffc107;
+  background-color: rgb(255, 193, 7);
   padding: 1% 2%;
   /* border-radius: 3px; */
   /* width: 100%; */
@@ -1690,7 +1696,7 @@ section.red {
 .hamburger-menu {
   position: relative;
   transform: translateY(8px);
-  background: black;
+  background: rgb(0, 0, 0);
   transition: all 0ms 300ms;
 }
 .hamburger-menu.animate {
@@ -1702,7 +1708,7 @@ section.red {
   position: absolute;
   left: 0;
   bottom: 8px;
-  background: black;
+  background: rgb(0, 0, 0);
   transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 350ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -1711,7 +1717,7 @@ section.red {
   position: absolute;
   left: 0;
   top: 8px;
-  background: black;
+  background: rgb(0, 0, 0);
   transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 350ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
