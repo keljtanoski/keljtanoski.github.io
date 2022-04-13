@@ -1146,7 +1146,7 @@ section#experience .employee-tasks {
   padding: 3%;
 }
 section#experience .employee-tasks .resume-list {
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #ededed;
 }
 section#experience .employee-tasks .resume-list li.item-title {
   list-style: none;
