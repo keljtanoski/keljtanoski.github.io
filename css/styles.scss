@@ -288,8 +288,14 @@ h6.h5 {
 }
 
 .heading {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   //font-size: 38px;
+  .heading-dash {
+    color: $primary-actions;
+  }
+  &.main-heading {
+    font-size: 2.5rem;
+  }
 }
 
 .sub-heading {
@@ -304,13 +310,16 @@ h6.h5 {
 
   a {
     color: #343a40 !important;
-
   }
 
   &:hover {
     padding: 1px 8px;
     cursor: pointer;
     background-color: $primary_actions;
+    color: $white_text;
+    a {
+      color: $white-text !important;
+    }
   }
 }
 
@@ -407,6 +416,7 @@ h6.h5 {
 //Badge custom style
 .badge-custom {
   background: $primary_actions;
+  color: $white_text;
 }
 
 section {
@@ -773,8 +783,10 @@ section {
         background: #ededed;
 
         > i {
-          color: $primary_actions;
-          background-color: #081a35;
+          //color: $primary_actions;
+          color: #fff;
+          //background-color: #081a35;
+          background-color: $primary_actions;
           width: 90px;
           height: 90px;
           margin: 0 auto;
@@ -846,7 +858,8 @@ section {
       height: auto;
       //padding: 1.5% 2%;
       padding: 10px 20px;
-      box-shadow: 5px -4px 0px 0px #3c3b3b;
+      box-shadow: 5px -4px 0px 0px #232323;
+      //box-shadow: 5px -4px 0px 0px #3c3b3b;
       //box-shadow: 5px -4px 0px 0px #8c8c8c;
       color: #fff;
       font-size: 2rem;
@@ -1092,14 +1105,15 @@ section {
         padding: 10px;
         border-radius: 3px;
         display: inline-block;
-        background-color: rgb(255, 193, 7);
+        background-color: $primary_actions;
         padding: 1% 2%;
         /* border-radius: 3px; */
         /* width: 100%; */
         border-radius: 10px;
         /* text-align: right; */
         font-weight: 400;
-        color: #343a40;
+        //color: #343a40;
+        color: $white_text;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
       }
