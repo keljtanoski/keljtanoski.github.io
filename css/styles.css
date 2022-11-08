@@ -2,57 +2,57 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
 @font-face {
   font-family: "fontawesomeregular";
-  src: url("../fonts/fontawesome-webfont-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont-webfont.woff") format("woff");
-  font-weight: normal;
   font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/fontawesome-webfont-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "jetbrains_monobold";
-  src: url("../fonts/jetbrainsmono-bold-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-bold-webfont.woff") format("woff");
-  font-weight: normal;
   font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/jetbrainsmono-bold-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-bold-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "jetbrains_monobold_italic";
-  src: url("../fonts/jetbrainsmono-bold-italic-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-bold-italic-webfont.woff") format("woff");
-  font-weight: normal;
   font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/jetbrainsmono-bold-italic-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-bold-italic-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "jetbrains_monoextra_bold";
-  src: url("../fonts/jetbrainsmono-extrabold-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-extrabold-webfont.woff") format("woff");
-  font-weight: normal;
   font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/jetbrainsmono-extrabold-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-extrabold-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "jetbrains_monoXBdIt";
-  src: url("../fonts/jetbrainsmono-extrabold-italic-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-extrabold-italic-webfont.woff") format("woff");
-  font-weight: normal;
   font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/jetbrainsmono-extrabold-italic-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-extrabold-italic-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "jetbrains_monoitalic";
-  src: url("../fonts/jetbrainsmono-italic-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-italic-webfont.woff") format("woff");
-  font-weight: normal;
   font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/jetbrainsmono-italic-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-italic-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "jetbrains_monomedium";
-  src: url("../fonts/jetbrainsmono-medium-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-medium-webfont.woff") format("woff");
-  font-weight: normal;
   font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/jetbrainsmono-medium-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-medium-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "jetbrains_monomedium_italic";
-  src: url("../fonts/jetbrainsmono-medium-italic-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-medium-italic-webfont.woff") format("woff");
-  font-weight: normal;
   font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/jetbrainsmono-medium-italic-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-medium-italic-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "jetbrains_monoregular";
-  src: url("../fonts/jetbrainsmono-regular-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-regular-webfont.woff") format("woff");
-  font-weight: normal;
   font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/jetbrainsmono-regular-webfont.woff2") format("woff2"), url("../fonts/jetbrainsmono-regular-webfont.woff") format("woff");
 }
 body {
   font-family: jetbrains_monoregular, sans-serif;
@@ -60,19 +60,19 @@ body {
 
 @font-face {
   font-family: "Linearicons-Free";
+  font-style: normal;
+  font-weight: normal;
   src: url("../fonts/Linearicons-Free.eot?w118d");
   src: url("../fonts/Linearicons-Free.eot?#iefixw118d") format("embedded-opentype"), url("../fonts/Linearicons-Free.woff2?w118d") format("woff2"), url("../fonts/Linearicons-Free.woff?w118d") format("woff"), url("../fonts/Linearicons-Free.ttf?w118d") format("truetype"), url("../fonts/Linearicons-Free.svg?w118d#Linearicons-Free") format("svg");
-  font-weight: normal;
-  font-style: normal;
 }
 .lnr {
+  text-transform: none;
   font-family: "Linearicons-Free";
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
-  text-transform: none;
   line-height: 1;
+  speak: none;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -764,19 +764,19 @@ html {
 }
 
 body {
-  font-size: 1.15rem;
   font-family: "Muli", sans-serif !important;
+  font-size: 1.15rem;
 }
 
 .main-wrapper {
-  background-color: #171923;
-  overflow-x: hidden;
   position: relative;
   width: 100%;
+  background-color: #171923;
+  overflow-x: hidden;
 }
 .main-wrapper.not-found-page {
-  height: 100vh;
   width: 100vw;
+  height: 100vh;
 }
 
 .text__blue {
@@ -913,22 +913,22 @@ a:hover {
 
 .sidebar {
   position: fixed;
-  left: 0px;
   top: 0px;
   right: 552px;
   bottom: 0px;
+  left: 0px;
   z-index: 1;
   width: 40%;
   height: 100%;
 }
 .sidebar .main-info * {
-  transition: all 0.3s ease;
   opacity: 0;
   transform: translateX(-40px);
+  transition: all 0.3s ease;
 }
 .sidebar .main-info *.bs {
-  transform: translateX(0);
   opacity: 1;
+  transform: translateX(0);
 }
 
 img.img-black-white {
@@ -942,31 +942,31 @@ img.img-black-white:hover {
 
 .main-content {
   position: relative;
-  overflow: visible;
+  float: none;
   width: 60%;
   margin-left: 40%;
-  float: none;
+  overflow: visible;
   clear: none;
 }
 .main-content:after {
   position: absolute;
-  content: "";
   top: -50px;
+  right: 0;
   bottom: -50px;
   left: 0;
-  right: 0;
-  transition: all 0.7s cubic-bezier(0.79, 0, 0.05, 0.83);
   background-color: #171923;
+  transition: all 0.7s cubic-bezier(0.79, 0, 0.05, 0.83);
+  content: "";
 }
 .main-content.active:after {
   position: absolute;
-  content: "";
   top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  transform: translateX(100%);
   background-color: #fff;
+  transform: translateX(100%);
+  content: "";
 }
 
 article {
@@ -980,10 +980,10 @@ article img {
   max-width: 100%;
 }
 article code {
-  background-color: #fbfbfb !important;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  background-color: #fbfbfb !important;
 }
 article mark {
   background-color: white;
@@ -992,9 +992,9 @@ article mark {
 
 .heading,
 h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
   font-family: "Muli", sans-serif !important;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 h6.h5 {
@@ -1016,18 +1016,18 @@ h6.h5 {
 }
 
 .highlight {
-  background-color: #ededed;
   padding: 2px 8px;
-  /*display: inline-block;*/
+  background-color: #ededed;
   color: #343a40;
+  /*display: inline-block;*/
 }
 .highlight a {
   color: #343a40 !important;
 }
 .highlight:hover {
   padding: 1px 8px;
-  cursor: pointer;
   background-color: #f9322b;
+  cursor: pointer;
   color: rgb(231, 232, 242);
 }
 .highlight:hover a {
@@ -1035,15 +1035,15 @@ h6.h5 {
 }
 
 .form-control {
-  border: none;
   background-color: #e8ebef !important;
+  border: none;
 }
 
 .primaryMenu {
-  transform: translateY(-90px);
-  transition: transform 0.3s ease;
   position: absolute;
   margin-left: 35px;
+  transform: translateY(-90px);
+  transition: transform 0.3s ease;
 }
 .primaryMenu.active {
   transform: translateY(0px);
@@ -1051,11 +1051,11 @@ h6.h5 {
 
 .secondaryMenu {
   position: absolute;
-  width: 100%;
-  transform: translateY(-90px);
-  margin-left: 25px;
-  padding-left: 0;
   z-index: 2;
+  width: 100%;
+  padding-left: 0;
+  margin-left: 25px;
+  transform: translateY(-90px);
   transition: transform 0.3s ease;
 }
 .secondaryMenu.active {
@@ -1075,26 +1075,26 @@ h6.h5 {
   border-color: #32d2a7;
 }
 .btn.btn-primary:active {
-  transform: scale(0.95);
   background-color: #32d2a7;
   border-color: #32d2a7;
+  transform: scale(0.95);
 }
 
 .btn-dark-faded {
-  font-weight: 300;
-  font-family: "Muli", sans-serif !important;
-  /*text-transform: uppercase;*/
   background-color: rgba(0, 0, 0, 0.07);
   color: black;
+  font-family: "Muli", sans-serif !important;
+  font-weight: 300;
+  /*text-transform: uppercase;*/
 }
 
 .social:hover a {
   color: rgba(255, 255, 255, 0.5);
 }
 .social a {
+  margin-right: 12px;
   color: #fff;
   font-size: 28px;
-  margin-right: 12px;
   transition: all 0.3s ease;
 }
 .social a:hover {
@@ -1113,15 +1113,15 @@ section {
   padding: 6%;
 }
 section#about, section#experience, section#services, section#skills, section#contact, section#certification, section#personal-skills {
-  transition: all 0.5s ease;
   position: relative;
-  background-color: #fff !important;
-  margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
+  margin-left: 50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff !important;
   border-radius: 7px;
   color: #343a40;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  transition: all 0.5s ease;
 }
 section#about:hover, section#experience:hover, section#services:hover, section#skills:hover, section#contact:hover, section#certification:hover, section#personal-skills:hover {
   box-shadow: 0 20px 5px -10px rgba(0, 0, 0, 0.4);
@@ -1144,25 +1144,25 @@ section#contact:hover {
   transform: translateY(0px);
 }
 section#experience .company-info {
-  background-color: #ededed;
   padding: 3%;
-  border-bottom: unset;
   margin-top: 0px;
+  background-color: #ededed;
+  border-bottom: unset;
 }
 section#experience .employee-tasks {
+  padding: 3%;
   border: 1px solid #eee;
   border-top: unset;
-  padding: 3%;
 }
 section#experience .employee-tasks .resume-list {
   border-bottom: 1px solid #ededed;
 }
 section#experience .employee-tasks .resume-list li.item-title {
-  list-style: none;
   position: relative;
-  margin-left: -20px;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-left: -20px;
+  list-style: none;
 }
 section#experience #axModule {
   line-height: 1.5;
@@ -1366,16 +1366,16 @@ section#services .card-wrapper .card {
   background: #ededed;
 }
 section#services .card-wrapper .card > i {
-  color: #fff;
-  background-color: #f9322b;
-  width: 90px;
-  height: 90px;
-  margin: 0 auto;
-  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 90px;
+  height: 90px;
   padding: 1%;
+  margin: 0 auto;
+  background-color: #f9322b;
+  border-radius: 50px;
+  color: #fff;
 }
 section#about {
   margin-top: 50px;
@@ -1388,19 +1388,19 @@ section#not_found_404 {
 section#not_found_404 .not_found_content {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
   justify-content: center;
   align-items: center;
   align-content: center;
+  width: 100%;
+  height: 100%;
 }
 section#not_found_404 .not_found_content h1 {
   color: white;
   font-size: 10.5rem;
 }
 section#not_found_404 .not_found_content .social {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 section#not_found_404 .not_found_content .social a {
   font-size: 2.7rem;
@@ -1411,13 +1411,13 @@ section .heading {
 }
 section .heading .custom-title-icon {
   position: absolute;
-  right: -7px;
   top: -7px;
-  background: #f9322b;
+  right: -7px;
   width: auto;
   height: auto;
   padding: 10px 20px;
   box-shadow: 5px -4px 0px 0px #232323;
+  background: #f9322b;
   color: #fff;
   font-size: 2rem;
 }
@@ -1495,8 +1495,8 @@ section.blue {
   background-color: #cadfdf;
 }
 section.orange {
-  color: #fff;
   background-color: #fb7833;
+  color: #fff;
 }
 section.green {
   background-color: #aaffa7;
@@ -1525,76 +1525,76 @@ section.red {
 }
 
 .card {
-  border-radius: 6px;
   border: none;
+  border-radius: 6px;
 }
 
 #timeline {
-  width: 100%;
   position: relative;
+  width: 100%;
+  transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 }
 #timeline:before {
-  content: "";
+  position: absolute;
+  top: 0;
+  left: 1%;
   width: 3px;
   height: 100%;
   background: #f9322b;
-  left: 1%;
   transform: translate(-50%);
-  top: 0;
-  position: absolute;
+  content: "";
 }
 #timeline:after {
-  content: "";
-  clear: both;
   display: table;
   width: 100%;
+  content: "";
+  clear: both;
 }
 #timeline .timeline-item {
-  margin-bottom: 50px;
   position: relative;
+  margin-bottom: 50px;
   text-align: right;
 }
 #timeline .timeline-item .timeline-icon {
-  background: #f9322b;
-  width: 20px;
-  height: 20px;
   position: absolute;
   top: 0;
   left: 1%;
-  overflow: hidden;
+  width: 20px;
+  height: 20px;
   margin-left: -10px;
+  background: #f9322b;
+  border-radius: 50%;
+  overflow: hidden;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
 }
 #timeline .timeline-item .timeline-content {
   width: 95%;
+  transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 #timeline .timeline-item .timeline-content .date {
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  border-radius: 3px;
   display: inline-block;
-  background-color: #f9322b;
+  padding: 10px;
   padding: 1% 2%;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #f9322b;
+  border-radius: 3px;
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  color: rgb(231, 232, 242);
+  font-weight: 400;
   /* border-radius: 3px; */
   /* width: 100%; */
-  border-radius: 10px;
   /* text-align: right; */
-  font-weight: 400;
-  color: rgb(231, 232, 242);
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 #timeline .timeline-item .timeline-content.right {
   float: right;
@@ -1634,13 +1634,13 @@ section.red {
     padding: 6%;
   }
   section#about, section#experience, section#services, section#skills, section#certification, section#contact {
-    background-color: #fff !important;
-    margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 20px;
+    margin-left: 15px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff !important;
     border-radius: 7px;
     color: #343a40;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   }
   section#contact {
     height: 96vh;
@@ -1657,30 +1657,30 @@ section.red {
     padding-top: 3rem;
   }
   #timeline {
-    margin: 10px;
-    margin-bottom: 0;
-    padding-bottom: 30px;
-    padding: 0px;
     width: 96%;
     width: 100%;
+    padding: 0px;
+    padding-bottom: 30px;
+    margin: 10px;
     margin: 0;
+    margin-bottom: 0;
   }
   #timeline:before {
     left: 0;
     display: none;
   }
   #timeline .timeline-item .timeline-content {
-    width: 95%;
     float: right;
-    text-align: left;
+    width: 95%;
     width: 100%;
+    text-align: left;
   }
   #timeline .timeline-item .timeline-content:before,
 #timeline .timeline-item .timeline-content .right:before {
-    margin-left: -6px;
-    border-left: 0;
-    border-right: 7px solid #ee4d4d;
     display: none;
+    margin-left: -6px;
+    border-right: 7px solid #ee4d4d;
+    border-left: 0;
   }
   #timeline .timeline-item .timeline-icon {
     left: 0;
@@ -1705,8 +1705,8 @@ section.red {
 
 .hamburger-menu {
   position: relative;
-  transform: translateY(8px);
   background: rgb(0, 0, 0);
+  transform: translateY(8px);
   transition: all 0ms 300ms;
 }
 .hamburger-menu.animate {
@@ -1714,21 +1714,21 @@ section.red {
 }
 
 .hamburger-menu:before {
-  content: "";
   position: absolute;
-  left: 0;
   bottom: 8px;
+  left: 0;
   background: rgb(0, 0, 0);
   transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 350ms cubic-bezier(0.23, 1, 0.32, 1);
+  content: "";
 }
 
 .hamburger-menu:after {
-  content: "";
   position: absolute;
-  left: 0;
   top: 8px;
+  left: 0;
   background: rgb(0, 0, 0);
   transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 350ms cubic-bezier(0.23, 1, 0.32, 1);
+  content: "";
 }
 
 .hamburger-menu.animate:after {
@@ -1748,63 +1748,63 @@ section.red {
 }
 
 .charts-container:after {
-  clear: both;
-  content: "";
   display: table;
+  content: "";
+  clear: both;
 }
 
 .pie-wrapper {
-  height: 1em;
   width: 1em;
+  height: 1em;
+  position: relative;
   float: left;
   margin: 15px;
-  position: relative;
 }
 .pie-wrapper:nth-child(3n+1) {
   clear: both;
 }
 .pie-wrapper .pie {
-  height: 100%;
   width: 100%;
-  clip: rect(0, 1em, 1em, 0.5em);
-  left: 0;
+  height: 100%;
   position: absolute;
   top: 0;
+  left: 0;
+  clip: rect(0, 1em, 1em, 0.5em);
 }
 .pie-wrapper .pie .half-circle {
-  height: 100%;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   border: 0.1em solid #3498db;
   border-radius: 50%;
   clip: rect(0, 0.5em, 1em, 0);
-  left: 0;
-  position: absolute;
-  top: 0;
 }
 .pie-wrapper .label {
+  position: absolute;
+  top: 0.4em;
+  right: 0.4em;
+  bottom: 0.4em;
+  left: 0.4em;
+  display: block;
   background: #34495e;
   border-radius: 50%;
-  bottom: 0.4em;
-  color: #ecf0f1;
   cursor: default;
-  display: block;
-  font-size: 0.25em;
-  left: 0.4em;
-  line-height: 2.8em;
-  position: absolute;
-  right: 0.4em;
+  color: #ecf0f1;
   text-align: center;
-  top: 0.4em;
+  font-size: 0.25em;
+  line-height: 2.8em;
 }
 .pie-wrapper .label .smaller {
+  vertical-align: super;
+  padding-bottom: 20px;
   color: #bdc3c7;
   font-size: 0.45em;
-  padding-bottom: 20px;
-  vertical-align: super;
 }
 .pie-wrapper .shadow {
-  height: 100%;
   width: 100%;
+  height: 100%;
   border: 0.1em solid #bdc3c7;
   border-radius: 50%;
 }
@@ -1887,12 +1887,12 @@ section.red {
   overflow: hidden;
 }
 .pie-wrapper--solid:before {
-  border-radius: 0 100% 100% 0/50%;
-  content: "";
   display: block;
   height: 100%;
   margin-left: 50%;
+  border-radius: 0 100% 100% 0/50%;
   transform-origin: left;
+  content: "";
 }
 .pie-wrapper--solid .label {
   background: transparent;

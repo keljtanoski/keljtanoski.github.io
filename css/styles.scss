@@ -13,11 +13,13 @@ html {
 }
 
 body {
-  font-size: 1.15rem;
   font-family: 'Muli', sans-serif !important;
+  font-size: 1.15rem;
 }
 
 .main-wrapper {
+  position: relative;
+  width: 100%;
   background-color: $primary_bg;
   //background: #1e3c72; /* fallback for old browsers */
   //background: -webkit-linear-gradient(to left, #2a5298, #1e3c72); /* Chrome 10-25, Safari 5.1-6 */
@@ -25,12 +27,10 @@ body {
 
 
   overflow-x: hidden;
-  position: relative;
-  width: 100%;
 
   &.not-found-page {
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
   }
 }
 
@@ -170,24 +170,24 @@ a {
 
 .sidebar {
   position: fixed;
-  left: 0px;
   top: 0px;
 
   right: 552px;
   bottom: 0px;
+  left: 0px;
   z-index: 1;
   width: 40%;
 
   height: 100%;
 
   .main-info * {
-    transition: all 0.3s ease;
     opacity: 0;
     transform: translateX(-40px);
+    transition: all 0.3s ease;
 
     &.bs {
-      transform: translateX(0);
       opacity: 1;
+      transform: translateX(0);
     }
 
 
@@ -206,23 +206,23 @@ img.img-black-white {
 
 .main-content {
   position: relative;
-  overflow: visible;
+  float: none;
   width: 60%;
   //max-width: 1200px;
   margin-left: 40%;
-  float: none;
+  overflow: visible;
   clear: none;
 
   &:after {
     position: absolute;
-    content: '';
     top: -50px;
+    right: 0;
     bottom: -50px;
     left: 0;
-    right: 0;
-    transition: all 0.7s cubic-bezier(0.79, 0, 0.05, 0.83);
     //opacity: 1;
     background-color: $primary_bg;
+    transition: all 0.7s cubic-bezier(0.79, 0, 0.05, 0.83);
+    content: '';
     //background: ;
     //background: #1e3c72; /* fallback for old browsers */
     //background: -webkit-linear-gradient(to left, #1e3c72, #2a5298); /* Chrome 10-25, Safari 5.1-6 */
@@ -233,13 +233,13 @@ img.img-black-white {
   &.active {
     &:after {
       position: absolute;
-      content: '';
       top: 0;
+      right: 0;
       bottom: 0;
       left: 0;
-      right: 0;
-      transform: translateX(100%);
       background-color: #fff;
+      transform: translateX(100%);
+      content: '';
     }
   }
 }
@@ -258,10 +258,10 @@ article {
   }
 
   code {
-    background-color: #fbfbfb !important;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    background-color: #fbfbfb !important;
   }
 
   mark {
@@ -275,11 +275,11 @@ article {
 h1, h2, h3, h4, h5, h6 {
 
   //font-family: 'jetbrains_monobold', sans-serif !important;
+  text-transform: uppercase;
   font-family: 'Muli', sans-serif !important;
   //font-family: 'Montserrat', sans-serif !important;
   //font-family: 'Source Code Pro', monospace;
   font-weight: 700;
-  text-transform: uppercase;
 
 }
 
@@ -303,10 +303,10 @@ h6.h5 {
 }
 
 .highlight {
-  background-color: #ededed;
   padding: 2px 8px;
-  /*display: inline-block;*/
+  background-color: #ededed;
   color: #343a40;
+  /*display: inline-block;*/
 
   a {
     color: #343a40 !important;
@@ -314,8 +314,8 @@ h6.h5 {
 
   &:hover {
     padding: 1px 8px;
-    cursor: pointer;
     background-color: $primary_actions;
+    cursor: pointer;
     color: $white_text;
     a {
       color: $white-text !important;
@@ -324,16 +324,16 @@ h6.h5 {
 }
 
 .form-control {
-  border: none;
   background-color: #e8ebef !important;
+  border: none;
 }
 
 .primaryMenu {
   // margin-top: -90px;
-  transform: translateY(-90px);
-  transition: transform 0.3s ease;
   position: absolute;
   margin-left: 35px;
+  transform: translateY(-90px);
+  transition: transform 0.3s ease;
 
   &.active {
     transform: translateY(0px);
@@ -342,12 +342,12 @@ h6.h5 {
 
 .secondaryMenu {
   position: absolute;
+  z-index: 2;
   width: 100%;
+  padding-left: 0;
+  margin-left: 25px;
   // margin-top: -90px;
   transform: translateY(-90px);
-  margin-left: 25px;
-  padding-left: 0;
-  z-index: 2;
   transition: transform 0.3s ease;
 
   &.active {
@@ -371,20 +371,20 @@ h6.h5 {
     }
 
     &:active {
-      transform: scale(0.95);
       background-color: #32d2a7;
       border-color: #32d2a7;
+      transform: scale(0.95);
     }
   }
 }
 
 .btn-dark-faded {
-  font-weight: 300;
-  //font-family: 'Montserrat', sans-serif !important;
-  font-family: 'Muli', sans-serif !important;
-  /*text-transform: uppercase;*/
   background-color: rgba(0, 0, 0, 0.07);
   color: black;
+  //font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Muli', sans-serif !important;
+  font-weight: 300;
+  /*text-transform: uppercase;*/
 }
 
 // Styles for social icons
@@ -397,9 +397,9 @@ h6.h5 {
 
   a {
     //color: rgba(0, 0, 0, 1);
+    margin-right: 12px;
     color: #fff;
     font-size: 28px;
-    margin-right: 12px;
     transition: all 0.3s ease;
 
     &:hover {
@@ -429,16 +429,16 @@ section {
   &#contact,
   &#certification,
   &#personal-skills {
-    transition: all .5s ease;
     position: relative;
-    background-color: #fff !important;
-    margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-    border-radius: 7px;
-    color: #343a40;
+    margin-left: 50px;
     //text-shadow: 1px 1px 1px #444;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff !important;
+    border-radius: 7px;
+    color: #343a40;
+    transition: all .5s ease;
     //&.heading {
     //  color: #343a40;
     //}
@@ -481,25 +481,25 @@ section {
 
   &#experience {
     .company-info {
-      background-color: #ededed;
       padding: 3%;
-      border-bottom: unset;
       margin-top: 0px;
+      background-color: #ededed;
+      border-bottom: unset;
     }
 
     .employee-tasks {
+      padding: 3%;
       border: 1px solid #eee;
       border-top: unset;
-      padding: 3%;
 
       .resume-list {
         border-bottom: 1px solid #ededed;
         li.item-title {
-          list-style: none;
           position: relative;
-          margin-left: -20px;
           padding-top: 5px;
           padding-bottom: 5px;
+          margin-left: -20px;
+          list-style: none;
         }
       }
     }
@@ -784,17 +784,17 @@ section {
 
         > i {
           //color: $primary_actions;
-          color: #fff;
-          //background-color: #081a35;
-          background-color: $primary_actions;
-          width: 90px;
-          height: 90px;
-          margin: 0 auto;
-          border-radius: 50px;
           display: flex;
           justify-content: center;
           align-items: center;
+          width: 90px;
+          height: 90px;
           padding: 1%;
+          margin: 0 auto;
+          //background-color: #081a35;
+          background-color: $primary_actions;
+          border-radius: 50px;
+          color: #fff;
         }
       }
     }
@@ -812,11 +812,11 @@ section {
     .not_found_content {
       display: flex;
       flex-direction: column;
-      height: 100%;
-      width: 100%;
       justify-content: center;
       align-items: center;
       align-content: center;
+      width: 100%;
+      height: 100%;
 
       h1 {
         //display: flex;
@@ -832,8 +832,8 @@ section {
       }
 
       .social {
-        margin: 0;
         padding: 0;
+        margin: 0;
 
         a {
           font-size: 2.7rem;
@@ -851,14 +851,14 @@ section {
 
     .custom-title-icon {
       position: absolute;
-      right: -7px;
       top: -7px;
-      background: $primary_actions;
+      right: -7px;
       width: auto;
       height: auto;
       //padding: 1.5% 2%;
       padding: 10px 20px;
       box-shadow: 5px -4px 0px 0px #232323;
+      background: $primary_actions;
       //box-shadow: 5px -4px 0px 0px #3c3b3b;
       //box-shadow: 5px -4px 0px 0px #8c8c8c;
       color: #fff;
@@ -964,8 +964,8 @@ section {
   }
 
   &.orange {
-    color: #fff;
     background-color: #fb7833;
+    color: #fff;
   }
 
   &.green {
@@ -1005,31 +1005,31 @@ section {
 }
 
 .card {
-  border-radius: 6px;
   border: none;
+  border-radius: 6px;
 }
 
 // styles for timeline
 
 #timeline {
-  width: 100%;
 
   position: relative;
+  width: 100%;
+  transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 
   &:before {
-    content: "";
+    position: absolute;
+    top: 0;
+    left: 1%;
     width: 3px;
     height: 100%;
     //background: #000;
     background: $primary_actions;
-    left: 1%;
     transform: translate(-50%);
-    top: 0;
-    position: absolute;
+    content: "";
   }
 
   //&:before {
@@ -1044,32 +1044,32 @@ section {
   //}
 
   &:after {
-    content: "";
-    clear: both;
     display: table;
     width: 100%;
+    content: "";
+    clear: both;
   }
 
   .timeline-item {
-    margin-bottom: 50px;
     position: relative;
+    margin-bottom: 50px;
     text-align: right;
     //box-shadow: 0 20px 5px -10px rgba(#000, 0.4);
 
     .timeline-icon {
       //background: #000;
-      background: $primary_actions;
-      width: 20px;
-      height: 20px;
       position: absolute;
       top: 0;
       left: 1%;
-      overflow: hidden;
+      width: 20px;
+      height: 20px;
       margin-left: -10px;
+      background: $primary_actions;
+      border-radius: 50%;
+      overflow: hidden;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
-      border-radius: 50%;
     }
 
     //.timeline-icon {
@@ -1090,10 +1090,10 @@ section {
     .timeline-content {
       //width: 45%;
       width: 95%;
+      transition: all 0.3s ease;
       -webkit-transition: all 0.3s ease;
       -moz-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
-      transition: all 0.3s ease;
 
       p {
         //color: rgba(0, 0, 0, 0.7);
@@ -1101,21 +1101,21 @@ section {
 
       .date {
         display: inline-block;
-        background-color: rgba(0, 0, 0, 0.1);
-        padding: 10px;
-        border-radius: 3px;
         display: inline-block;
-        background-color: $primary_actions;
+        padding: 10px;
         padding: 1% 2%;
-        /* border-radius: 3px; */
-        /* width: 100%; */
+        background-color: rgba(0, 0, 0, 0.1);
+        background-color: $primary_actions;
+        border-radius: 3px;
         border-radius: 10px;
-        /* text-align: right; */
-        font-weight: 400;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
         //color: #343a40;
         color: $white_text;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        font-weight: 400;
+        /* border-radius: 3px; */
+        /* width: 100%; */
+        /* text-align: right; */
       }
 
       &.right {
@@ -1173,14 +1173,14 @@ section {
     &#skills,
     &#certification,
     &#contact {
-      background-color: #fff !important;
-      margin-left: 15px;
       margin-right: 15px;
       margin-bottom: 20px;
-      border-radius: 7px;
-      color: #343a40;
+      margin-left: 15px;
       //text-shadow: 1px 1px 1px #444;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      background-color: #fff !important;
+      border-radius: 7px;
+      color: #343a40;
     }
 
     &:first-child {
@@ -1219,13 +1219,13 @@ section {
   }
 
   #timeline {
-    margin: 10px;
-    margin-bottom: 0;
-    padding-bottom: 30px;
-    padding: 0px;
     width: 96%;
     width: 100%;
+    padding: 0px;
+    padding-bottom: 30px;
+    margin: 10px;
     margin: 0;
+    margin-bottom: 0;
 
     &:before {
       left: 0;
@@ -1234,18 +1234,18 @@ section {
 
     .timeline-item {
       .timeline-content {
-        width: 95%;
         float: right;
-        text-align: left;
+        width: 95%;
         width: 100%;
+        text-align: left;
 
         &:before,
         .right:before {
           //left: 10%;
-          margin-left: -6px;
-          border-left: 0;
-          border-right: 7px solid #ee4d4d;
           display: none;
+          margin-left: -6px;
+          border-right: 7px solid #ee4d4d;
+          border-left: 0;
         }
       }
 
@@ -1282,8 +1282,8 @@ $bar-spacing: 8px;
 
 .hamburger-menu {
   position: relative;
-  transform: translateY($bar-spacing);
   background: rgba(0, 0, 0, 1);
+  transform: translateY($bar-spacing);
   transition: all 0ms 300ms;
 
   &.animate {
@@ -1292,21 +1292,21 @@ $bar-spacing: 8px;
 }
 
 .hamburger-menu:before {
-  content: "";
   position: absolute;
-  left: 0;
   bottom: $bar-spacing;
+  left: 0;
   background: rgba(0, 0, 0, 1);
   transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 350ms cubic-bezier(0.23, 1, 0.32, 1);
+  content: "";
 }
 
 .hamburger-menu:after {
-  content: "";
   position: absolute;
-  left: 0;
   top: $bar-spacing;
+  left: 0;
   background: rgba(0, 0, 0, 1);
   transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 350ms cubic-bezier(0.23, 1, 0.32, 1);
+  content: "";
 }
 
 .hamburger-menu.animate:after {
@@ -1331,8 +1331,8 @@ $label-font-size-redo: $default-size * 4;
 
 // -- mixins
 @mixin size($width, $height) {
-  height: $height;
   width: $width;
+  height: $height;
 }
 
 @mixin draw-progress($progress, $color) {
@@ -1379,17 +1379,17 @@ $label-font-size-redo: $default-size * 4;
 
 .charts-container {
   &:after {
-    clear: both;
-    content: '';
     display: table;
+    content: '';
+    clear: both;
   }
 }
 
 .pie-wrapper {
   @include size($default-size, $default-size);
+  position: relative;
   float: left;
   margin: 15px;
-  position: relative;
 
   &:nth-child(3n + 1) {
     clear: both;
@@ -1397,42 +1397,42 @@ $label-font-size-redo: $default-size * 4;
 
   .pie {
     @include size(100%, 100%);
-    clip: rect(0, $default-size, $default-size, $default-size / 2);
-    left: 0;
     position: absolute;
     top: 0;
+    left: 0;
+    clip: rect(0, $default-size, $default-size, $default-size / 2);
 
     .half-circle {
       @include size(100%, 100%);
+      position: absolute;
+      top: 0;
+      left: 0;
       border: ($default-size / 10) solid #3498db;
       border-radius: 50%;
       clip: rect(0, $default-size / 2, $default-size, 0);
-      left: 0;
-      position: absolute;
-      top: 0;
     }
   }
 
   .label {
+    position: absolute;
+    top: $label-font-size-redo / 10;
+    right: $label-font-size-redo / 10;
+    bottom: $label-font-size-redo / 10;
+    left: $label-font-size-redo / 10;
+    display: block;
     background: $bg-color;
     border-radius: 50%;
-    bottom: $label-font-size-redo / 10;
-    color: #ecf0f1;
     cursor: default;
-    display: block;
-    font-size: $label-font-size;
-    left: $label-font-size-redo / 10;
-    line-height: $label-font-size-redo * .70;
-    position: absolute;
-    right: $label-font-size-redo / 10;
+    color: #ecf0f1;
     text-align: center;
-    top: $label-font-size-redo / 10;
+    font-size: $label-font-size;
+    line-height: $label-font-size-redo * .70;
 
     .smaller {
+      vertical-align: super;
+      padding-bottom: 20px;
       color: #bdc3c7;
       font-size: .45em;
-      padding-bottom: 20px;
-      vertical-align: super;
     }
   }
 
@@ -1483,12 +1483,12 @@ $label-font-size-redo: $default-size * 4;
   overflow: hidden;
 
   &:before {
-    border-radius: 0 100% 100% 0 / 50%;
-    content: '';
     display: block;
     height: 100%;
     margin-left: 50%;
+    border-radius: 0 100% 100% 0 / 50%;
     transform-origin: left;
+    content: '';
   }
 
   .label {
