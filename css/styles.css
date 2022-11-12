@@ -1112,7 +1112,7 @@ h6.h5 {
 section {
   padding: 6%;
 }
-section#about, section#experience, section#services, section#skills, section#contact, section#certification, section#personal-skills {
+section#about, section#experience, section#services, section#skills, section#contact, section#certification, section#packages, section#personal-skills {
   position: relative;
   margin-right: 50px;
   margin-bottom: 50px;
@@ -1123,7 +1123,7 @@ section#about, section#experience, section#services, section#skills, section#con
   color: #343a40;
   transition: all 0.5s ease;
 }
-section#about:hover, section#experience:hover, section#services:hover, section#skills:hover, section#contact:hover, section#certification:hover, section#personal-skills:hover {
+section#about:hover, section#experience:hover, section#services:hover, section#skills:hover, section#contact:hover, section#certification:hover, section#packages:hover, section#personal-skills:hover {
   box-shadow: 0 20px 5px -10px rgba(0, 0, 0, 0.4);
   transform: translateY(5px);
 }
@@ -1352,6 +1352,9 @@ section#experience #upModule a:not(.collapsed)::after {
   content: "- Show Less";
 }
 section#certification .certificate-wrapper {
+  text-align: center;
+}
+section#packages .packages-wrapper {
   text-align: center;
 }
 section#services .card-wrapper {
@@ -1633,7 +1636,7 @@ section.red {
   section {
     padding: 6%;
   }
-  section#about, section#experience, section#services, section#skills, section#certification, section#contact {
+  section#about, section#experience, section#services, section#skills, section#certification, section#packages, section#contact {
     margin-right: 15px;
     margin-bottom: 20px;
     margin-left: 15px;

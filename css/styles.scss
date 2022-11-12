@@ -428,6 +428,7 @@ section {
   &#skills,
   &#contact,
   &#certification,
+  &#packages,
   &#personal-skills {
     position: relative;
     margin-right: 50px;
@@ -765,6 +766,12 @@ section {
 
   &#certification {
     .certificate-wrapper {
+      text-align: center;
+    }
+  }
+
+  &#packages {
+    .packages-wrapper {
       text-align: center;
     }
   }
@@ -1172,6 +1179,7 @@ section {
     &#services,
     &#skills,
     &#certification,
+    &#packages,
     &#contact {
       margin-right: 15px;
       margin-bottom: 20px;
